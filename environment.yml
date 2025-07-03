@@ -1,0 +1,23 @@
+name: artifacts_sandbox
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+  - pip
+
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - mne
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - torcheeg
+      - braindecode
+      - pyhealth
